@@ -18,7 +18,9 @@ export const Header = () => {
       <div className='py-5'>
         <div className='container'>
           <div className='flex items-center justify-between'>
-            <Image src={Logo} alt='Saas Logo' height={40} width={40} />
+            <div className="inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:w-full before:blur before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute">
+            <Image src={Logo} alt='Saas Logo' height={40} width={40} className='z-20'/>
+            </div>
             <MenuIcon className='h-5 w-5 md:hidden' />
             <nav className='hidden md:flex gap-6 text-black/60 items-center'>
               <a href='#'>About</a>
