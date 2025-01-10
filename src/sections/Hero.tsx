@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import ArrowIcon from '@/assets/arrow-right.svg';
 import cogImage from '@/assets/cog.png';
 import cylinderImage from '@/assets/cylinder.png';
@@ -16,7 +16,7 @@ export const Hero = () => {
   const heroRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
-    offset: ["start end", "end start"],
+    offset: ['start end', 'end start'],
   });
   const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
 
