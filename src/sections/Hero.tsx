@@ -66,7 +66,7 @@ export const Hero = () => {
               alt='Cylinder image'
               className='hidden md:block -top-8 -left-32 md:absolute'
               style={{
-                translateY: translateY,
+                translateY,
               }}
             />
             <motion.img
@@ -76,7 +76,7 @@ export const Hero = () => {
               className='hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]'
               style={{
                 rotate: 30,
-                translateY: translateY,
+                translateY
               }}
             />
           </div>
