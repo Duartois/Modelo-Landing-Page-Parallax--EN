@@ -55,7 +55,7 @@ GitHub: github.com/Duartois
 
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/matheusduartegoncalves/)
 
-Email: your.email@example.com
+Email: matheusdugoncalves@gmail.com
 
 
 ## 🚀 Getting Started
